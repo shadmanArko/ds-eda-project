@@ -25,7 +25,7 @@ Work through the files in order. Start with the assignment to understand the goa
 | [**01 - Assignment**](01_assignment.md)                      | The project brief: the dataset, your tasks, deliverables, and the list of clients to choose from.                        |
 | [**02 - Workflow**](02_workflow.md)                          | A recommended EDA workflow, from understanding and questioning the data through cleaning, relationships, and presenting. |
 | [**03 - Fetching the Data**](03_fetching_the_data_eda.ipynb) | Connect to the PostgreSQL database with psycopg2 and SQLAlchemy, then pull the data into a pandas DataFrame.             |
-| [**04 - EDA**](04_eda.ipynb)                                 | Starter notebook for your exploratory data analysis.                                                                     |
+| [**04 - EDA**](05_eda.ipynb)                                 | Starter notebook for your exploratory data analysis.                                                                     |
 | [**Column Names**](column_names.md)                          | Data dictionary describing each column in the King County housing dataset.                                               |
 
 ### Additional Folders and Files
