@@ -1,6 +1,6 @@
 [project]
-name = "ds-eda-project-template"
-version = "0.1.0"
+name = "kc-housing-eda-bonnie-brown"
+version = "1.0.0"
 requires-python = ">=3.13"
 dependencies = [
     "ipywidgets>=8.1.8",

@@ -266,49 +266,6 @@ wheels = [
 ]
 
 [[package]]
-name = "ds-eda-project-template"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "ipywidgets" },
-    { name = "missingno" },
-    { name = "pandas-stubs" },
-    { name = "plotly" },
-    { name = "psycopg2-binary" },
-    { name = "python-dotenv" },
-    { name = "seaborn" },
-    { name = "setuptools" },
-    { name = "sqlalchemy" },
-    { name = "ydata-profiling" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "ipykernel" },
-    { name = "nbformat" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ipywidgets", specifier = ">=8.1.8" },
-    { name = "missingno", specifier = ">=0.5.2" },
-    { name = "pandas-stubs", specifier = "~=2.3.3" },
-    { name = "plotly", specifier = ">=6.8.0" },
-    { name = "psycopg2-binary", specifier = ">=2.9.12" },
-    { name = "python-dotenv", specifier = ">=1.2.2" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-    { name = "setuptools", specifier = "<82" },
-    { name = "sqlalchemy", specifier = ">=2.0.50" },
-    { name = "ydata-profiling", specifier = ">=4.18.4" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "ipykernel", specifier = ">=7.2.0" },
-    { name = "nbformat", specifier = ">=5.10.4" },
-]
-
-[[package]]
 name = "executing"
 version = "2.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -610,6 +567,49 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/26/2d/ef58fed122b268c69c0aa099da20bc67657cdfb2e222688d5731bd5b971d/jupyterlab_widgets-3.0.16.tar.gz", hash = "sha256:423da05071d55cf27a9e602216d35a3a65a3e41cdf9c5d3b643b814ce38c19e0", size = 897423, upload-time = "2025-11-01T21:11:29.724Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ab/b5/36c712098e6191d1b4e349304ef73a8d06aed77e56ceaac8c0a306c7bda1/jupyterlab_widgets-3.0.16-py3-none-any.whl", hash = "sha256:45fa36d9c6422cf2559198e4db481aa243c7a32d9926b500781c830c80f7ecf8", size = 914926, upload-time = "2025-11-01T21:11:28.008Z" },
+]
+
+[[package]]
+name = "kc-housing-eda-bonnie-brown"
+version = "1.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "ipywidgets" },
+    { name = "missingno" },
+    { name = "pandas-stubs" },
+    { name = "plotly" },
+    { name = "psycopg2-binary" },
+    { name = "python-dotenv" },
+    { name = "seaborn" },
+    { name = "setuptools" },
+    { name = "sqlalchemy" },
+    { name = "ydata-profiling" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+    { name = "nbformat" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipywidgets", specifier = ">=8.1.8" },
+    { name = "missingno", specifier = ">=0.5.2" },
+    { name = "pandas-stubs", specifier = "~=2.3.3" },
+    { name = "plotly", specifier = ">=6.8.0" },
+    { name = "psycopg2-binary", specifier = ">=2.9.12" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "setuptools", specifier = "<82" },
+    { name = "sqlalchemy", specifier = ">=2.0.50" },
+    { name = "ydata-profiling", specifier = ">=4.18.4" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "ipykernel", specifier = ">=7.2.0" },
+    { name = "nbformat", specifier = ">=5.10.4" },
 ]
 
 [[package]]

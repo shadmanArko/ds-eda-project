@@ -145,3 +145,6 @@ models/*.pkl
 
 # vscode Stuff
 .vscode
+
+# PyCharm / IntelliJ
+.idea
